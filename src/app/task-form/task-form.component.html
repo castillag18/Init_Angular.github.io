@@ -1,0 +1,50 @@
+<div class="container">
+  <h1>Task: </h1>
+  
+  <form>
+    <label for="title">Title: </label> 
+    <input
+      type="text"
+      class="form-control"
+      id="title"
+      required
+      [(ngModel)]="model.title"
+      name="title"
+      />
+      
+    <label for="description">Description: </label> 
+    <input
+      type="text"
+      class="form-control"
+      id="description"
+      required
+      [(ngModel)]="model.description"
+      name="description"
+      />
+
+    <label for="url">Url: </label> 
+    <input
+      type="text"
+      class="form-control"
+      id="url"
+      [(ngModel)]="model.url"
+      name="url"
+      />
+
+    <p></p>
+
+    <button type="submit" class="btn btn-success">
+      Save
+    </button>
+  </form>
+<p></p>
+  <div class="pre">
+    <h2>Model: </h2>
+    {{ currentTask }}
+  </div>
+
+<p></p>
+<p></p>
+<p></p>
+
+</div>
