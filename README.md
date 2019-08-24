@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Formulario
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# Init_Angular
+Iniciando con Angular
+>>>>>>> e8185ce7c39da5239870e366fdaf8af17d56ca8f
