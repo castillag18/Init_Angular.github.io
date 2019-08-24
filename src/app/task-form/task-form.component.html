@@ -31,20 +31,45 @@
       name="url"
       />
 
-    <p></p>
+
+<p></p>
+<p></p>
+<p></p>
+
+<label for="asignatura">Subjects: </label>
+<select type="text" id="tasks" class="form-control" name="tasks" [(ngModel)]="model.tasks" required>
+  <optgroup label="Seleccione una asignatura"></optgroup>
+  <optgroup label="Catalogo">
+    <option>Lengua Española</option>
+    <option>Matematica</option>
+    <option>Artistica</option>
+    <option>Ingles</option>
+  </optgroup>
+</select>
+
+<p></p>
+<p></p>
+<p></p>
+
+
+   <p></p>
 
     <button type="submit" class="btn btn-success">
       Save
     </button>
   </form>
+
+
 <p></p>
   <div class="pre">
-    <h2>Model: </h2>
+    <h2>Responses: </h2>
     {{ currentTask }}
   </div>
 
 <p></p>
 <p></p>
 <p></p>
+
+
 
 </div>
