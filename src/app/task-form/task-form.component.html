@@ -1,34 +1,34 @@
 <div class="container">
-  <h1>Task: </h1>
+  <h2>Task: </h2>
   
   <form>
-    <label for="title">Title: </label> 
+    <label for="Title">Title: </label> 
     <input
       type="text"
       class="form-control"
-      id="title"
+      id="Title"
       required
-      [(ngModel)]="model.title"
-      name="title"
+      [(ngModel)]="model.Title"
+      name="Title"
       />
       
-    <label for="description">Description: </label> 
+    <label for="Description">Description: </label> 
     <input
       type="text"
       class="form-control"
-      id="description"
+      id="Description"
       required
-      [(ngModel)]="model.description"
-      name="description"
+      [(ngModel)]="model.Description"
+      name="Description"
       />
 
-    <label for="url">Url: </label> 
+    <label for="Url">Url: </label> 
     <input
       type="text"
       class="form-control"
-      id="url"
-      [(ngModel)]="model.url"
-      name="url"
+      id="Url"
+      [(ngModel)]="model.Url"
+      name="Url"
       />
 
 
@@ -37,8 +37,8 @@
 <p></p>
 
 <label for="asignatura">Subjects: </label>
-<select type="text" id="tasks" class="form-control" name="tasks" [(ngModel)]="model.tasks" required>
-  <optgroup label="Seleccione una asignatura"></optgroup>
+<select type="text" id="Tasks" class="form-control" name="Tasks" [(ngModel)]="model.Tasks" required>
+  <option label="Seleccione una asignatura"></option>
   <optgroup label="Catalogo">
     <option>Lengua Española</option>
     <option>Matematica</option>
@@ -62,7 +62,7 @@
 
 <p></p>
   <div class="pre">
-    <h2>Responses: </h2>
+    <h3>Responses: </h3>
     {{ currentTask }}
   </div>
 

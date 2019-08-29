@@ -1,11 +1,11 @@
 
 export class Task {
   constructor(
-      public id:number,
-      public title:string,
-      public description:string,
-      public tasks: string,
-      public url?:string
+      public Id:number,
+      public Title:string,
+      public Description:string,
+      public Tasks: string,
+      public Url?:string
       
   ){}
 
